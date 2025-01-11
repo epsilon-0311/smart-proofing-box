@@ -590,6 +590,22 @@
     [
       "d1a2f8a9-9bc9-41ca-afdb-9a63c150b9a0",
       "Peltier Circuit"
+    ],
+    [
+      "3819d153-6908-4b4c-a594-d7ace53d6586",
+      "USB-PD"
+    ],
+    [
+      "5e70b74f-f233-4fb3-a0c2-d689066cde99",
+      "USB-C"
+    ],
+    [
+      "e643bae0-2a71-4f15-8425-090e3fd8eb5e",
+      "Input Ouput"
+    ],
+    [
+      "499e400b-9a1e-49ed-8f87-9fdef4a82184",
+      "SD Card"
     ]
   ],
   "text_variables": {}

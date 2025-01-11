@@ -5,7 +5,19 @@
 	(uuid "a4950c28-a4a7-46ac-b452-4ce3e8dc4dd4")
 	(paper "A4")
 	(lib_symbols)
-	(hierarchical_label "V_out"
+	(hierarchical_label "3V3"
+		(shape output)
+		(at 74.93 90.17 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3b234a57-119b-471d-bbed-ff69fbde8389")
+	)
+	(hierarchical_label "5V5"
 		(shape output)
 		(at 74.93 86.36 0)
 		(fields_autoplaced yes)

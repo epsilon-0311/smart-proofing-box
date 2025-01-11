@@ -6,7 +6,7 @@
 	(paper "A4")
 	(lib_symbols)
 	(hierarchical_label "Polarity"
-		(shape input)
+		(shape output)
 		(at 55.88 69.85 0)
 		(fields_autoplaced yes)
 		(effects
@@ -17,9 +17,21 @@
 		)
 		(uuid "58e59239-53d6-4fe1-91c9-a91fc43c9daa")
 	)
-	(hierarchical_label "Sensor"
+	(hierarchical_label "FAN"
 		(shape output)
-		(at 55.88 72.39 0)
+		(at 55.88 74.93 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "72afd1d8-7600-4424-b3f6-8fcc71496f54")
+	)
+	(hierarchical_label "Sensor_T_Box"
+		(shape input)
+		(at 59.69 85.09 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -29,8 +41,32 @@
 		)
 		(uuid "998c822c-1835-41e8-9a53-dbac3211bf62")
 	)
-	(hierarchical_label "Signal"
+	(hierarchical_label "Sensor_T_Outside"
 		(shape input)
+		(at 59.69 90.17 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9d495c2d-4d91-4e4b-8f2d-0008e92fab5a")
+	)
+	(hierarchical_label "Sensor_T_Inside"
+		(shape input)
+		(at 59.69 87.63 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a32ca0a4-7799-49e5-ac11-4df69cf80707")
+	)
+	(hierarchical_label "Signal"
+		(shape output)
 		(at 55.88 66.04 0)
 		(fields_autoplaced yes)
 		(effects
