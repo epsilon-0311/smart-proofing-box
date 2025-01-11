@@ -1,0 +1,44 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "d729ee55-6fdb-480c-bdfe-9ecab43e2f69")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "Polarity"
+		(shape input)
+		(at 55.88 69.85 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "58e59239-53d6-4fe1-91c9-a91fc43c9daa")
+	)
+	(hierarchical_label "Sensor"
+		(shape output)
+		(at 55.88 72.39 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "998c822c-1835-41e8-9a53-dbac3211bf62")
+	)
+	(hierarchical_label "Signal"
+		(shape input)
+		(at 55.88 66.04 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dfdd1bac-d865-4811-b6e3-26c4acce18de")
+	)
+)
