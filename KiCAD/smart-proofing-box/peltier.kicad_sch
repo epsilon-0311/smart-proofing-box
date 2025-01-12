@@ -5,6 +5,18 @@
 	(uuid "d729ee55-6fdb-480c-bdfe-9ecab43e2f69")
 	(paper "A4")
 	(lib_symbols)
+	(hierarchical_label "FAN_Outside"
+		(shape output)
+		(at 55.88 77.47 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1cd1bdec-ea68-489d-baf2-9839aafb97b5")
+	)
 	(hierarchical_label "Polarity"
 		(shape output)
 		(at 55.88 69.85 0)
@@ -17,7 +29,7 @@
 		)
 		(uuid "58e59239-53d6-4fe1-91c9-a91fc43c9daa")
 	)
-	(hierarchical_label "FAN"
+	(hierarchical_label "FAN_Inside"
 		(shape output)
 		(at 55.88 74.93 0)
 		(fields_autoplaced yes)

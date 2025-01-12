@@ -407,126 +407,6 @@
 				)
 			)
 		)
-		(symbol "power:+3.3V"
-			(power)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+3.3V"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+3.3V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+3.3V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0) hide
-					(name "+3.3V"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "power:+3V3"
 			(power)
 			(pin_numbers hide)
@@ -985,6 +865,12 @@
 		)
 	)
 	(junction
+		(at 135.89 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "18a9ac53-8a6e-4078-b89a-1325758e8aa7")
+	)
+	(junction
 		(at 267.97 154.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1027,6 +913,12 @@
 		(uuid "bf88c195-e81f-44b5-a2a8-2cee4051f897")
 	)
 	(junction
+		(at 138.43 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c912bf2a-bf76-4a20-976c-155b69647a59")
+	)
+	(junction
 		(at 254 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1054,7 +946,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 153.67) (xy 207.01 101.6)
+			(xy 224.79 161.29) (xy 224.79 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1104,6 +996,16 @@
 	)
 	(wire
 		(pts
+			(xy 87.63 161.29) (xy 224.79 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f211c3b-ce85-4943-9bd3-c16ffc791789")
+	)
+	(wire
+		(pts
 			(xy 254 139.7) (xy 267.97 139.7)
 		)
 		(stroke
@@ -1121,6 +1023,16 @@
 			(type default)
 		)
 		(uuid "14ad46de-7003-4178-a6e1-80b529f5b38a")
+	)
+	(wire
+		(pts
+			(xy 215.9 104.14) (xy 222.25 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b9ad6bd-d10d-4ac5-b8b8-02edfe77bd2c")
 	)
 	(wire
 		(pts
@@ -1151,6 +1063,26 @@
 			(type default)
 		)
 		(uuid "2253b4d2-8877-4cfc-9812-2944854a3f13")
+	)
+	(wire
+		(pts
+			(xy 180.34 142.24) (xy 176.53 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b20d5d6-def7-4bd6-bd4a-7bf55061cebc")
+	)
+	(wire
+		(pts
+			(xy 215.9 101.6) (xy 224.79 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f93b980-114f-4ae5-8fed-72cd2d7ce12b")
 	)
 	(wire
 		(pts
@@ -1194,26 +1126,6 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 86.36) (xy 125.73 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "42874141-3f8e-4e4d-aecb-17b2b9cc930f")
-	)
-	(wire
-		(pts
-			(xy 158.75 104.14) (xy 179.07 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "42a5b7ad-3705-4201-8bac-960c8e365920")
-	)
-	(wire
-		(pts
 			(xy 96.52 140.97) (xy 96.52 144.78)
 		)
 		(stroke
@@ -1224,13 +1136,23 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 83.82) (xy 125.73 83.82)
+			(xy 138.43 144.78) (xy 153.035 144.78)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "480db491-5dbc-4e9c-ab3a-d01c05a646d3")
+		(uuid "4b455ed5-1ca1-4020-b0f3-0a286774a00b")
+	)
+	(wire
+		(pts
+			(xy 87.63 163.83) (xy 227.33 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cbc3fe0-e193-482e-abdc-4d321e10636e")
 	)
 	(wire
 		(pts
@@ -1274,6 +1196,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.665 82.55) (xy 125.73 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58e7a686-7450-4080-843c-628cb487174b")
+	)
+	(wire
+		(pts
 			(xy 138.43 144.78) (xy 138.43 127)
 		)
 		(stroke
@@ -1301,6 +1233,26 @@
 			(type default)
 		)
 		(uuid "5d059ac9-9f60-4c37-9daa-071813f45347")
+	)
+	(wire
+		(pts
+			(xy 227.33 163.83) (xy 227.33 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e55c5c2-3cf0-4a72-aa78-202cde0a631e")
+	)
+	(wire
+		(pts
+			(xy 87.63 156.21) (xy 219.71 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e86b447-8e4e-4990-b9d8-73a77e9d0112")
 	)
 	(wire
 		(pts
@@ -1344,6 +1296,16 @@
 	)
 	(wire
 		(pts
+			(xy 219.71 106.68) (xy 215.9 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8998510d-0cd4-4f98-a603-ecb1115c6c74")
+	)
+	(wire
+		(pts
 			(xy 55.88 139.7) (xy 52.07 139.7)
 		)
 		(stroke
@@ -1361,16 +1323,6 @@
 			(type default)
 		)
 		(uuid "93d10f26-c025-4b41-9388-47d65bdef6ac")
-	)
-	(wire
-		(pts
-			(xy 158.75 99.06) (xy 179.07 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9416d3c4-9b39-4420-a813-fdc5ec93e225")
 	)
 	(wire
 		(pts
@@ -1414,6 +1366,26 @@
 	)
 	(wire
 		(pts
+			(xy 219.71 156.21) (xy 219.71 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3c5ade0-68cd-4d95-a772-1fd29429ca11")
+	)
+	(wire
+		(pts
+			(xy 222.25 158.75) (xy 87.63 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a58ff738-09fb-4eaa-be99-45a76edcbd9c")
+	)
+	(wire
+		(pts
 			(xy 116.84 110.49) (xy 114.3 110.49)
 		)
 		(stroke
@@ -1424,16 +1396,6 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 101.6) (xy 201.93 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a9ac3e89-9924-4fd5-a388-34d4bd33033a")
-	)
-	(wire
-		(pts
 			(xy 267.97 152.4) (xy 267.97 154.94)
 		)
 		(stroke
@@ -1441,6 +1403,16 @@
 			(type default)
 		)
 		(uuid "aac0de2d-f6cb-42e5-beac-c18988c4ae31")
+	)
+	(wire
+		(pts
+			(xy 222.25 104.14) (xy 222.25 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aacc889e-44b0-4a3b-ae36-bbc82bcd48e3")
 	)
 	(wire
 		(pts
@@ -1464,6 +1436,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.665 85.09) (xy 125.73 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b70c2449-e5f4-42c7-a14b-14faec9e3e2e")
+	)
+	(wire
+		(pts
 			(xy 96.52 144.78) (xy 138.43 144.78)
 		)
 		(stroke
@@ -1471,6 +1453,16 @@
 			(type default)
 		)
 		(uuid "b93241d2-8180-458d-9613-bc50b30d0ba5")
+	)
+	(wire
+		(pts
+			(xy 135.89 142.24) (xy 153.035 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf982358-ac8a-4e65-8347-af591b8dc72d")
 	)
 	(wire
 		(pts
@@ -1484,13 +1476,13 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 153.67) (xy 207.01 153.67)
+			(xy 227.33 99.06) (xy 215.9 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d0eb36c5-1357-4620-b519-6be9e7cde937")
+		(uuid "da977c5c-2da5-4fbe-ba9e-8bd02f001e90")
 	)
 	(wire
 		(pts
@@ -1617,6 +1609,28 @@
 		(uuid "21b0fc89-c37e-43a9-9394-5806ec85c7f9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 277.3983 139.6206 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RESET"
+		(shape input)
+		(at 180.34 142.24 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2fca5b26-53a9-427a-bed6-36d21f4cd1df")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 189.0703 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1760,6 +1774,72 @@
 			(project "smart-proofing-box"
 				(path "/9f44417e-7d9a-4a89-a496-429bd9f640d7"
 					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 267.97 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2c9d5bd0-e8c6-431b-bf48-145232c80a44")
+		(property "Reference" "#PWR036"
+			(at 267.97 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 267.97 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 267.97 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 267.97 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 267.97 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8d663625-e2fd-4be4-869f-0c8eba108445")
+		)
+		(instances
+			(project "smart-proofing-box"
+				(path "/9f44417e-7d9a-4a89-a496-429bd9f640d7"
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -1969,6 +2049,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 104.14 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "59b3d744-9a1e-45ef-96e6-38e9d9e620d1")
+		(property "Reference" "#PWR031"
+			(at 104.14 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 104.14 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 104.14 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e9c9c98e-0491-4d97-9465-cea5aea6d229")
+		)
+		(instances
+			(project "smart-proofing-box"
+				(path "/9f44417e-7d9a-4a89-a496-429bd9f640d7"
+					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 170.18 48.26 0)
 		(unit 1)
@@ -2101,72 +2247,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 104.14 129.54 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9b929a08-50ff-490f-a904-909aae6aa04b")
-		(property "Reference" "#PWR028"
-			(at 104.14 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 104.14 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 104.14 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 104.14 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 104.14 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "53293cc3-d474-4ad5-be28-87a75b28c8f3")
-		)
-		(instances
-			(project "smart-proofing-box"
-				(path "/9f44417e-7d9a-4a89-a496-429bd9f640d7"
-					(reference "#PWR028")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 96.52 137.16 0)
 		(unit 1)
@@ -2231,71 +2311,6 @@
 			(project "smart-proofing-box"
 				(path "/9f44417e-7d9a-4a89-a496-429bd9f640d7"
 					(reference "R13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 267.97 127 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b671c6da-7bcd-49a7-89f1-7581d0458944")
-		(property "Reference" "#PWR07"
-			(at 267.97 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 267.97 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 267.97 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 267.97 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 267.97 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a2e2f212-812b-4b2b-8d62-52f81317015f")
-		)
-		(instances
-			(project "smart-proofing-box"
-				(path "/9f44417e-7d9a-4a89-a496-429bd9f640d7"
-					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -2438,6 +2453,74 @@
 		)
 	)
 	(sheet
+		(at 153.035 137.795)
+		(size 23.495 12.065)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "036679c6-2f18-4e28-92fc-4fcfbc8ed35f")
+		(property "Sheetname" "Display Circuit"
+			(at 153.035 137.0834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "display.kicad_sch"
+			(at 153.035 150.4446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SDA" bidirectional
+			(at 153.035 144.78 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e184f104-162e-4a13-84a0-38a0c7a1f990")
+		)
+		(pin "SCL" input
+			(at 153.035 142.24 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f5959ce9-46a5-46ff-8240-767d43122830")
+		)
+		(pin "RESET_DISPLAY" output
+			(at 176.53 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c5c7163b-7fa7-4e86-8ef8-9b88dbe6ec51")
+		)
+		(instances
+			(project "smart-proofing-box"
+				(path "/9f44417e-7d9a-4a89-a496-429bd9f640d7"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 63.5 50.8)
 		(size 39.37 16.51)
 		(fields_autoplaced yes)
@@ -2526,7 +2609,7 @@
 			(uuid "8a29a753-a419-4d46-88e7-39e5e4f84a0b")
 		)
 		(pin "SS" output
-			(at 114.3 102.87 0)
+			(at 114.3 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2536,7 +2619,7 @@
 			(uuid "497a1db5-f839-44c5-8f26-ab75a4c048c5")
 		)
 		(pin "SCK" output
-			(at 114.3 100.33 0)
+			(at 114.3 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2546,7 +2629,7 @@
 			(uuid "003acc6e-af96-4dba-a04f-5855f7af3318")
 		)
 		(pin "SDcard_DET" input
-			(at 114.3 110.49 0)
+			(at 114.3 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2556,7 +2639,7 @@
 			(uuid "b48f58df-09b0-4134-ad7b-06d078667d74")
 		)
 		(pin "MISO" input
-			(at 114.3 107.95 0)
+			(at 114.3 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2613,7 +2696,7 @@
 			(uuid "10a92a0d-af3a-4440-887c-16362f7a9c25")
 		)
 		(pin "USB_D-" bidirectional
-			(at 125.73 86.36 180)
+			(at 125.73 85.09 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2623,7 +2706,7 @@
 			(uuid "a43bc0cb-6d98-4c7c-8f83-a5c76031e853")
 		)
 		(pin "USD_D+" bidirectional
-			(at 125.73 83.82 180)
+			(at 125.73 82.55 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2761,8 +2844,8 @@
 		)
 	)
 	(sheet
-		(at 83.82 81.28)
-		(size 20.32 7.62)
+		(at 83.82 80.01)
+		(size 29.845 7.62)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -2773,7 +2856,7 @@
 		)
 		(uuid "5e70b74f-f233-4fb3-a0c2-d689066cde99")
 		(property "Sheetname" "USB-C"
-			(at 83.82 80.5684 0)
+			(at 83.82 79.2984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2782,7 +2865,7 @@
 			)
 		)
 		(property "Sheetfile" "usb_c.kicad_sch"
-			(at 83.82 89.4846 0)
+			(at 83.82 88.2146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2791,7 +2874,7 @@
 			)
 		)
 		(pin "USD_D+" bidirectional
-			(at 104.14 83.82 0)
+			(at 113.665 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2801,7 +2884,7 @@
 			(uuid "a913c3e2-3af6-46fd-b8ff-c93b6111445c")
 		)
 		(pin "USB_D-" bidirectional
-			(at 104.14 86.36 0)
+			(at 113.665 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2888,7 +2971,7 @@
 	)
 	(sheet
 		(at 179.07 96.52)
-		(size 22.86 19.05)
+		(size 36.83 19.05)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -2917,17 +3000,17 @@
 			)
 		)
 		(pin "Signal" input
-			(at 179.07 99.06 180)
+			(at 215.9 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 			(uuid "58b160f6-66ba-48dd-bccc-b4c9d6299756")
 		)
 		(pin "Polarity" input
-			(at 201.93 101.6 0)
+			(at 215.9 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2935,16 +3018,6 @@
 				(justify right)
 			)
 			(uuid "bb91c670-46c8-4b32-be2a-2aac61779708")
-		)
-		(pin "FAN" input
-			(at 179.07 104.14 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "0e547bb9-8e88-4517-9d93-be7f1cb09158")
 		)
 		(pin "Sensor_T_Inside" output
 			(at 179.07 110.49 180)
@@ -2976,6 +3049,26 @@
 			)
 			(uuid "2b7fc64e-002f-4a0b-a7b8-c7a02082e17b")
 		)
+		(pin "FAN_Inside" output
+			(at 215.9 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "8354ec57-98de-474c-a916-f95a45a3e8a7")
+		)
+		(pin "FAN_Outside" output
+			(at 215.9 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9be5e30f-70ce-41b4-a558-41f79bbacffd")
+		)
 		(instances
 			(project "smart-proofing-box"
 				(path "/9f44417e-7d9a-4a89-a496-429bd9f640d7"
@@ -2986,7 +3079,7 @@
 	)
 	(sheet
 		(at 55.88 137.16)
-		(size 31.75 19.05)
+		(size 31.75 33.02)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -3006,7 +3099,7 @@
 			)
 		)
 		(property "Sheetfile" "io.kicad_sch"
-			(at 55.88 156.7946 0)
+			(at 55.88 170.7646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3054,15 +3147,45 @@
 			)
 			(uuid "7ff50eea-c438-4e59-a204-e9d85c8bcc54")
 		)
-		(pin "PELTIER_POL" output
-			(at 87.63 153.67 0)
+		(pin "Peltier_Polarity" output
+			(at 87.63 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "edc26585-f425-4506-9723-5d0e67bf2a9d")
+			(uuid "d216de97-ae9e-4a06-92ec-a51d33c0a3c4")
+		)
+		(pin "Peltier_Fan_Inside" output
+			(at 87.63 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "3e31cfa8-6dbd-4ef4-a55c-8c4d1482c7d4")
+		)
+		(pin "Peltier_Fan_Outside" output
+			(at 87.63 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "831836d8-e01b-4bbd-8050-75a5643fd550")
+		)
+		(pin "Peltier_Signal" output
+			(at 87.63 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f0895dee-2508-42b4-98ae-afc75f60febc")
 		)
 		(instances
 			(project "smart-proofing-box"
